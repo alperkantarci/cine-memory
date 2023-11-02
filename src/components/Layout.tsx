@@ -37,13 +37,13 @@ export const Layout = () => {
           </ul>
         </div>
 
-        <main className="w-full py-10 px-3 sm:px-8 md:px-20 overflow-auto h-[calc(100vh-5rem)] md:h-full">
+        <main className="w-full py-10 px-3 sm:px-8 md:px-20 overflow-auto h-[calc(100vh-4rem)] md:h-full">
           <Suspense fallback={<div>Loading...</div>}>
             <Outlet />
           </Suspense>
         </main>
 
-        <div className="md:hidden h-20 w-full z-10 flex gap-2 bg-black/50 backdrop-blur-md py-1">
+        <div className="px-4 md:hidden h-16 w-full z-10 flex gap-2 bg-black/50 backdrop-blur-md py-1">
           {menus.map((menu, index) => (
             <NavLink
               to={menu.link || ""}

@@ -87,7 +87,7 @@ export const MultiSearch = () => {
         <p className="text-neutral-500 py-4">No data available!</p>
       )}
 
-      <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 px-2">
+      <div className="mt-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-4">
         {movies?.length > 0 &&
           movies?.map((movie: any) => (
             <div key={movie.id} className="relative group/movie">
