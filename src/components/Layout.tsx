@@ -20,7 +20,7 @@ export const Layout = () => {
       <div className="flex flex-col md:flex-row bg-neutral-900 text-neutral-200">
         <div className="hidden whitespace-nowrap border-r border-neutral-800 flex-shrink-0 px-4 md:flex flex-col h-screen">
           <header className="text-xl  py-10 px-10 text-center">
-            Cine Memory
+            <NavLink to="">Cine Memory</NavLink>
           </header>
 
           <ul className=" mt-10">
