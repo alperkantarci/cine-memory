@@ -37,7 +37,7 @@ export const Layout = () => {
           </ul>
         </div>
 
-        <main className="w-full py-10 px-3 sm:px-8 md:px-20 overflow-auto h-[calc(100vh-4rem)] md:h-full">
+        <main className="w-full py-10 px-3 sm:px-8 md:px-20 overflow-auto h-[calc(100vh-4rem)] md:h-screen">
           <Suspense fallback={<div>Loading...</div>}>
             <Outlet />
           </Suspense>
